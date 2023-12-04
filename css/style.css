@@ -1,2 +1,50 @@
 
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+header {
+   background: #e74c3c;
+    padding: 20px;
+    text-align: center;
+    
+  }
+
+footer {
+    text-align: center;
+    background: #e74c3c;
+    color: #ffffff;   
+}
+  
+nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #ffffff ;
+  }
+  
+.galleri {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    height: 50px;
+  }
+  
+.gallery img {
+    width: 100%;
+    height: auto;
+  }
   
